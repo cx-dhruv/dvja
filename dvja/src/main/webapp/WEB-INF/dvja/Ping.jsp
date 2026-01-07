@@ -34,7 +34,7 @@
                 <div class='col-md-12'>
                     <h2>Command Output</h2>
                     <hr/>
-                    <pre><s:property value="commandOutput" /></pre>
+                    <pre><s:property value="commandOutput" escapeHtml="true"/></pre>
                 </div>
             </div>
 
